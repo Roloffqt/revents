@@ -13,7 +13,7 @@ class EventitemList extends Component {
               <Item.Image
                 size="tiny"
                 circular
-                src="https://randomuser.me/api/portaits/woment/42.jps"
+                src="https://randomuser.me/api/portraits/women/42.jpg"
               />
               <Item.Content>
                 <Item.Header as="a">Event Title</Item.Header>
@@ -31,10 +31,6 @@ class EventitemList extends Component {
         </Segment>
         <Segment secondary>
           <List horizontal>
-            <EventListAttendee />
-
-            <EventListAttendee />
-
             <EventListAttendee />
           </List>
         </Segment>
